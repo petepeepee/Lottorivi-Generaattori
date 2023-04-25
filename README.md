@@ -8,6 +8,6 @@
 
 ##Kanye West PNG Pic - PNG All Tuolta kuva Kanye Westistä.
 
-##https://api.kanye.rest / kanye.rest tuolla on herra Westin sitaatteja tuottava api.
+##https://api.kanye.rest / https://kanye.rest tuolla on herra Westin sitaatteja tuottava api.
 
 ##Svelten perusteet, osa 1 (jamk.fi) ja Svelten perusteet, osa 2 (jamk.fi) tuolta katsottu apuja.
