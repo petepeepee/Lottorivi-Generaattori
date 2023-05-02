@@ -1,6 +1,9 @@
 <script>
   import Button from './Button.svelte';
   //koodi omaa
+  //if lohko määrittää, mitä modaali-ikkunassa lukee, kun on arvottu vaihtaa tekstiksi tadaa
+  // numero-funktio suoritetaan painettaessa buttonia, funktio arpoo lukujen 1-40 välillä numerot 7lottonumeroa ja lisänumeron ja työntää ne lottoRivi arrayhyn, mikäli numero on jo lottoRivissä, arpoo sellaisen jota ei vielä siellä ole. Lopuksi funktio järjestää luvut pienimmästä suurimpaan
+  //each lohko käy lottoRivi arrayn läpi ja näyttää jokaisen alkion
   const minLuku = 1;
   const maxLuku = 40;
 
@@ -21,7 +24,6 @@
     lottoRivi.sort(function (a, b) {
       return a - b;
     });
-    console.log(lottoRivi);
   };
 </script>
 
