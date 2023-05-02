@@ -1,5 +1,7 @@
 <script>
   //onMountiin on katsottu mallia kurssimateriaalista
+  //onMount suoritetaan kun komponentin elementit liitetään dom puuhun, eli kun App.sveltessä painetaan sitaatti-nappia ja modaali-ikkuna aukeaa onMount hakee dataa apista
+  //apin response palautuu sitaatti muuttujaan ja näytetään h2 elementissä, .quote on avainsana, jolla sitaatti saadaan näkyviin.
   import { onMount } from 'svelte';
   let sitaatti = '';
 
