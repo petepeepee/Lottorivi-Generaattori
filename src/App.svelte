@@ -1,6 +1,7 @@
 <script>
   //Vaikkakin luulen, että spagetista voi päätellä niin kaikki on minun koodiani
-
+  // if lohko on sitä varten, että jos käyttäjä painaa kyllä ja haluaa arpoa lottorivin, aukeaa modaali-ikkuna jossa voi tämän arpoa, jos taas ei, sitaatti-button tulee näkyviin, jota painamalla tulee modaali-ikkuna jossa on sitaatti.
+  //Kun modaali-ikkunat sulkee nollaafunktio palauttaa sivun lähtötilanteen ja käyttäjä voi tehdä uuden valinnan
   import Button from './Button.svelte';
   import Modal from './Modal.svelte';
   import Title from './Title.svelte';
